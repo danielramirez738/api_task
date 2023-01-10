@@ -8,11 +8,11 @@ Endpoints:
 
 La API tiene los siguientes endpoints:
 
-- Crear una tarea: /tasks (método: POST)
-- Leer una tarea: /tasks/<id> (método: GET)
-- Leer todas las tareas: /tasks (método: GET)
-- Actualizar una tarea: /tasks/<id> (método: PUT)
-- Eliminar una tarea: /tasks/<id> (método: DELETE)
+Crear una tarea: /tasks (método: POST)
+Leer una tarea: /tasks/<id> (método: GET)
+Leer todas las tareas: /tasks (método: GET)
+Actualizar una tarea: /tasks/<id> (método: PUT)
+Eliminar una tarea: /tasks/<id> (método: DELETE)
 
 Formato de solicitud y respuesta:
 
