@@ -14,12 +14,11 @@ Leer todas las tareas: /tasks (método: GET)
 Actualizar una tarea: /tasks/<id> (método: PUT)
 Eliminar una tarea: /tasks/<id> (método: DELETE)
 
-Formato de solicitud y respuesta:
-
-Request | Response
+Request and response format:
 Todas las solicitudes deben incluir un encabezado "Content-Type" con el valor "application/json". Las respuestas también estarán en formato "application/json".
 
-Example: Crear una tarea
+Example: 
+Crear una tarea
 
 Request:
 
