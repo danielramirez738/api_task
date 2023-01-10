@@ -8,13 +8,14 @@ Endpoints:
 
 La API tiene los siguientes endpoints:
 
-Crear una tarea: /tasks (método: POST)
-Leer una tarea: /tasks/<id> (método: GET)
-Leer todas las tareas: /tasks (método: GET)
-Actualizar una tarea: /tasks/<id> (método: PUT)
-Eliminar una tarea: /tasks/<id> (método: DELETE)
+Crear una tarea: /tasks (method: POST)
+Leer una tarea: /tasks/<id> (method: GET)
+Leer todas las tareas: /tasks (method: GET)
+Actualizar una tarea: /tasks/<id> (method: PUT)
+Eliminar una tarea: /tasks/<id> (method: DELETE)
 
 Request and response format:
+
 Todas las solicitudes deben incluir un encabezado "Content-Type" con el valor "application/json". Las respuestas también estarán en formato "application/json".
 
 Example: 
