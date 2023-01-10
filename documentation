@@ -2,7 +2,7 @@ Title: API task daily
 
 Description: Esta es la documentación de la API para una aplicación de lista de tareas simple. La API permite crear, leer, actualizar y eliminar tareas de la lista.
 
-Base URL: The base URL for the API, including the version number.
+Base URL: La URL base de la API, incluido el número de versión
 
 Endpoints:
 
