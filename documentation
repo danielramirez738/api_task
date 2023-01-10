@@ -40,7 +40,7 @@ Content-Type: application/json
 
 {
     "id": 1,
-    "name": "alir a correr",
+    "name": "Salir a correr",
     "description": "Asegurarme de cumplir la tarea de correr dia por medio previo a la jornada laboral",
     "date": "2023-09-01T00:00:00Z",
     "created_at": "2023-08-01T00:00:00Z",
