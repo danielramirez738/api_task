@@ -1,0 +1,58 @@
+Title: API task daily
+
+Description: Esta es la documentación de la API para una aplicación de lista de tareas simple. La API permite crear, leer, actualizar y eliminar tareas de la lista.
+
+Base URL: The base URL for the API, including the version number.
+
+Endpoints:
+
+La API tiene los siguientes endpoints:
+
+- Crear una tarea: /tasks (método: POST)
+- Leer una tarea: /tasks/<id> (método: GET)
+- Leer todas las tareas: /tasks (método: GET)
+- Actualizar una tarea: /tasks/<id> (método: PUT)
+- Eliminar una tarea: /tasks/<id> (método: DELETE)
+
+Formato de solicitud y respuesta:
+
+Request | Response
+Todas las solicitudes deben incluir un encabezado "Content-Type" con el valor "application/json". Las respuestas también estarán en formato "application/json".
+
+Example: Crear una tarea
+
+Request:
+
+POST /tasks
+Content-Type: application/json
+
+{
+    "name": "Hacer la cama",
+    "description": "Asegurarse de que la cama esté hecha antes de dormir",
+    "date": "2022-09-01T00:00:00Z"
+}
+
+Response:
+
+201 Created
+
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Hacer la cama",
+    "description": "Asegurarse de que la cama esté hecha antes de dormir",
+    "date": "2023-09-01T00:00:00Z",
+    "created_at": "2023-08-01T00:00:00Z",
+    "updated_at": "2023-08-01T00:00:00Z"
+}
+
+Request code:
+
+La API devuelve los siguientes códigos de respuesta HTTP:
+
+201: la tarea se ha creado correctamente
+200: la solicitud se ha procesado correctamente
+204: la tarea se ha eliminado correctamente
+400: la solicitud no es válida
+404: la tarea no se ha encontrado
