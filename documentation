@@ -29,7 +29,8 @@ Content-Type: application/json
 {
     "name": "Salir a correr",
     "description": "Asegurarme de cumplir la tarea de correr dia por medio previo a la jornada laboral",
-    "date": "2022-09-01T00:00:00Z"
+    "date": "2022-09-01T00:00:00Z",
+    "place": "Medellin"
 }
 
 Response:
